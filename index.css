@@ -53,6 +53,13 @@ body {
   color: #111;
   transition: all 0.3s;
 }
+.nav-link{
+  font-size: 1.5em;
+  transition: 0.3s;
+}
+.nav-link:hover{
+  color: var(--kace-orange) !important;
+}
 .social-links li {
   list-style: none;
   display: inline-block;
@@ -232,12 +239,16 @@ body {
     }
 
     .icon-of-ion{
-      color: #111;
+      color: #7f7f7f;
     }
 
     .icon-of-ion:hover{
       color: var(--kace-orange);
     }
+
+.home{
+  font-size: 2.5em !important; 
+}
 
     p{
       font-size: 1.5em !important; 
