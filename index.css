@@ -244,6 +244,7 @@ body {
 
     .icon-of-ion:hover{
       color: var(--kace-orange);
+      cursor: pointer;
     }
 
 .home{
