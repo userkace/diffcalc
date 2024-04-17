@@ -1,4 +1,13 @@
 :root {
+
+  /**
+   * cursors
+   */
+  --cursor: default;
+  --cursor-pointer: pointer;
+  --cursor-text: not-allowed;
+  --cursor-blocked: not-allowed;
+  
   /**
    * colors
    */
