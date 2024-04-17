@@ -1,13 +1,4 @@
 :root {
-
-  /**
-   * cursors
-   */
-  --cursor: url('pointer.png'), default;
-  --cursor-pointer: url('link.png'), pointer;
-  --cursor-text: url('text.png'), not-allowed;
-  --cursor-blocked: url('unavailiable.png'), not-allowed;
-  
   /**
    * colors
    */

@@ -9,11 +9,11 @@ document.addEventListener('mousemove', (e) => {
 const interactiveElements = document.querySelectorAll('.interactive'); 
 interactiveElements.forEach((element) => { 
     element.addEventListener('mouseenter', () => { 
-        cursor.style.width = '40px'; 
-        cursor.style.height = '40px'; 
+        cursor.style.width = '100px'; 
+        cursor.style.height = '100px'; 
     }); 
     element.addEventListener('mouseleave', () => { 
-        cursor.style.width = '20px'; 
-        cursor.style.height = '20px'; 
+        cursor.style.width = '80px'; 
+        cursor.style.height = '80px'; 
     }); 
 }); 
