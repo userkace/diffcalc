@@ -231,11 +231,11 @@ body {
       border-radius: 20px;
     }
 
-    ion-icon{
+    .icon-of-ion{
       color: #111;
     }
 
-    ion-icon:hover{
+    .icon-of-ion:hover{
       color: var(--kace-orange);
     }
 
