@@ -253,3 +253,22 @@ body {
     p{
       font-size: 1.5em !important; 
     }
+
+    .custom-cursor { 
+      position: fixed; 
+      width: 200px; 
+      height: 200px; 
+      border-radius: 50%; 
+      background-color: var(--kace-orange); 
+      border: 2px solid var(--kace-orange); 
+      mix-blend-mode: screen; /* Glowing effect  */
+      pointer-events: none; /* Allow interaction with underlying elements */ 
+      transform: translate(-50%, -50%); 
+      transition: width 0.2s ease, height 0.2s ease; 
+      filter: blur(25px);
+      -webkit-filter: blur(25px);
+  } 
+
+*{
+  cursor: none;
+}
